@@ -1,0 +1,58 @@
+body {
+  height: 3000px;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+  body h1, body h3 {
+    margin: 2em;
+    text-align: center;
+    color: white;
+    font-family: sans-serif; }
+  body h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  body #container,
+  body #another {
+    margin-top: 700px;
+    height: 480px;
+    width: 100%;
+    overflow: hidden; }
+    body #container .slide,
+    body #another .slide {
+      width: inherit;
+      height: 480px;
+      background-size: 480px;
+      background-repeat: no-repeat; }
+      body #container .slide--scroll,
+      body #another .slide--scroll {
+        background-attachment: scroll;
+        background-position: calc((100vw - 480px)/2) 0; }
+      body #container .slide--fixed,
+      body #another .slide--fixed {
+        background-attachment: fixed;
+        background-position-x: calc((100vw - 480px)/2);
+        background-position-y: calc(1px + (100vh - 480px)/2); }
+      body #container .slide--1,
+      body #another .slide--1 {
+        background-image: url(../assets/smiles/0.png); }
+      body #container .slide--2,
+      body #another .slide--2 {
+        background-image: url(../assets/smiles/9.gif); }
+      body #container .slide--3,
+      body #another .slide--3 {
+        background-image: url(../assets/smiles/1.png); }
+      body #container .slide--4,
+      body #another .slide--4 {
+        background-image: url(../assets/smiles/2.png); }
+      body #container .slide--5,
+      body #another .slide--5 {
+        background-image: url(../assets/smiles/7.png); }
+      body #container .slide--6,
+      body #another .slide--6 {
+        background-image: url(../assets/smiles/5.png); }
+
+/*# sourceMappingURL=styles.css.map */
